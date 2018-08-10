@@ -308,7 +308,8 @@ public class CountryCodePicker extends RelativeLayout {
     }
 
     if (getRegisteredPhoneNumberTextView() != null) {
-      setRegisteredPhoneNumberTextView(mTvSelectedCountry, selectedCountry.getIso().toUpperCase());
+//      setRegisteredPhoneNumberTextView(mTvSelectedCountry, selectedCountry.getIso().toUpperCase());
+      setRegisteredPhoneNumberTextView(mRegisteredPhoneNumberTextView, selectedCountry.getIso().toUpperCase());
     }
 
     if (!mHideNameCode) {
