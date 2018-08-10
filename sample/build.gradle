@@ -5,7 +5,7 @@ android {
   buildToolsVersion rootProject.ext.buildToolsVersion
 
   defaultConfig {
-    applicationId "com.rilixtech.countrycodepicker"
+    applicationId "com.saidjamol.countrycodepicker"
     minSdkVersion 14
     targetSdkVersion rootProject.ext.sdkVersion
     versionCode rootProject.ext.libraryVersionCode

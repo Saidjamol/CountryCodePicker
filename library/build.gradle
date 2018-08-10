@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'com.github.joielechong'
+group = 'com.github.Saidjamol'
 version = rootProject.ext.libraryVersion
 
 android {
