@@ -1,4 +1,4 @@
-package com.rilixtech.countrycodepicker;
+package com.sj.countrycodepicker;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

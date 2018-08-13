@@ -1,4 +1,4 @@
-package com.rilixtech;
+package com.sj;
 
 import android.app.Dialog;
 import android.content.Context;

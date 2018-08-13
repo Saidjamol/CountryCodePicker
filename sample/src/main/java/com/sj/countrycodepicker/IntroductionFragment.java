@@ -1,8 +1,7 @@
-package com.rilixtech.countrycodepicker;
+package com.sj.countrycodepicker;
 
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,31 +12,39 @@ import android.widget.Button;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class CustomSizeFragment extends Fragment {
+public class IntroductionFragment extends Fragment {
 
 
-    public CustomSizeFragment() {
+    Button buttonGo;
+    public IntroductionFragment() {
         // Required empty public constructor
     }
 
-    Button buttonNext;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_custom_size, container, false);
+        return inflater.inflate(R.layout.fragment_introduction, container, false);
     }
 
     @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+    public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        buttonNext=(Button)getView().findViewById(R.id.button_next);
-        buttonNext.setOnClickListener(new View.OnClickListener() {
+        assignViews();
+        setClickListener();
+    }
+
+    private void setClickListener() {
+        buttonGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ((ExampleActivity) getActivity()).viewPager.setCurrentItem(((ExampleActivity) getActivity()).viewPager.getCurrentItem() + 1);
+                ((ExampleActivity)getActivity()).viewPager.setCurrentItem(1);
             }
         });
+    }
+
+    private void assignViews() {
+        buttonGo=(Button)getView().findViewById(R.id.button_letsGo);
     }
 }

@@ -1,4 +1,4 @@
-package com.rilixtech;
+package com.sj;
 
 /**
  * Created by hbb20 on 11/1/16.

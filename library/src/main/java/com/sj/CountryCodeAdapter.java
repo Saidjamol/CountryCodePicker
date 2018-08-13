@@ -1,4 +1,4 @@
-package com.rilixtech;
+package com.sj;
 
 import android.support.v7.widget.AppCompatImageView;
 import android.support.v7.widget.AppCompatTextView;
@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
 
 import java.util.List;
 
-import com.rilixtech.CountryCodeDialog.ItemRecyclerViewClickListener;
+import com.sj.CountryCodeDialog.ItemRecyclerViewClickListener;
 
 /**
  * Created by hbb20 on 11/1/16. item
